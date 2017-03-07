@@ -1,0 +1,14 @@
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\bin\Debug\AppTelao.exe.config
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\bin\Debug\AppTelao.exe
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\bin\Debug\AppTelao.pdb
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\AppTelao.csprojResolveAssemblyReference.cache
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\MainWindow.g.cs
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\App.g.cs
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\AppTelao_MarkupCompile.cache
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\AppTelao_MarkupCompile.lref
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\MainWindow.baml
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\AppTelao.g.resources
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\AppTelao.Properties.Resources.resources
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\AppTelao.csproj.GenerateResource.Cache
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\AppTelao.exe
+c:\users\brian\documents\visual studio 2015\Projects\AppTelao\AppTelao\obj\Debug\AppTelao.pdb
