@@ -86,31 +86,51 @@ namespace AppTelao
         {
             if (atualizar)
             {
+                DoubleAnimation a = new DoubleAnimation(0, 1, TimeSpan.FromSeconds(2));
+                //labelTest.Opacity = 100;
+                //labelTest.BeginAnimation(Image.OpacityProperty, a);
+
                 if (contador == 0)
                 {
                     labelUser0.Content = usuario;
                     labelTweet0.Content = tweet;
+                    
+                    labelUser0.BeginAnimation(Image.OpacityProperty, a);                   
+                    labelTweet0.BeginAnimation(Image.OpacityProperty, a);
+           
 
                 }
                 else if (contador == 1)
                 {
                     labelUser1.Content = usuario;
                     labelTweet1.Content = tweet;
+
+                    labelUser1.BeginAnimation(Image.OpacityProperty, a);
+                    labelTweet1.BeginAnimation(Image.OpacityProperty, a);
                 }
                 else if (contador == 2)
                 {
                     labelUser2.Content = usuario;
                     labelTweet2.Content = tweet;
+
+                    labelUser2.BeginAnimation(Image.OpacityProperty, a);
+                    labelTweet2.BeginAnimation(Image.OpacityProperty, a);
                 }
                 else if (contador == 3)
                 {
                     labelUser3.Content = usuario;
                     labelTweet3.Content = tweet;
+
+                    labelUser3.BeginAnimation(Image.OpacityProperty, a);
+                    labelTweet3.BeginAnimation(Image.OpacityProperty, a);
                 }
                 else if (contador == 4)
                 {
                     labelUser4.Content = usuario;
                     labelTweet4.Content = tweet;
+
+                    labelUser4.BeginAnimation(Image.OpacityProperty, a);
+                    labelTweet4.BeginAnimation(Image.OpacityProperty, a);
                 }
 
 
