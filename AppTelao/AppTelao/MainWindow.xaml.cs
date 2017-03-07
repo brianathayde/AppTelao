@@ -27,7 +27,7 @@ namespace AppTelao
     /// </summary>
     public partial class MainWindow : Window
     {
-                
+
         Thread tServer;
         Servidor servidor;
 
@@ -40,16 +40,17 @@ namespace AppTelao
         // 0...4
         const int maxTweets = 4;
         int contador = 0;
-        
+
 
         public void NovoTweet(string s)
         {
 
             userTweet = s;
 
+
             if (Listas.NovoTweet(userTweet))
             {
-                bool nome = true;               
+                bool nome = true;
 
                 atualizar = true;
                 usuario = "";
@@ -76,9 +77,12 @@ namespace AppTelao
                 atualizar = false;
             }
 
+
+            labelTweet0.Dispatcher.Invoke(new Action(AtualizarTela));
+
         }
 
-        private void Window_LayoutUpdated(object sender, EventArgs e)
+        void AtualizarTela()
         {
             if (atualizar)
             {
@@ -86,7 +90,7 @@ namespace AppTelao
                 {
                     labelUser0.Content = usuario;
                     labelTweet0.Content = tweet;
-                                       
+
                 }
                 else if (contador == 1)
                 {
@@ -108,7 +112,7 @@ namespace AppTelao
                     labelUser4.Content = usuario;
                     labelTweet4.Content = tweet;
                 }
-                
+
 
                 contador++;
                 if (contador > maxTweets)
@@ -118,7 +122,7 @@ namespace AppTelao
 
                 atualizar = false;
             }
-        }
+        }       
 
         public MainWindow()
         {
@@ -167,6 +171,7 @@ namespace AppTelao
             labelTweet3.Width = ActualWidth;
             labelTweet4.Width = ActualWidth;
         }
+        
 
         /*/
         private void animacao()
